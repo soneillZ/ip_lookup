@@ -126,7 +126,7 @@ ip_input_entry.grid(row=1, column=0, sticky=W, padx=180)
 button_search = Button(text="Lookup IP", command=ip_search)
 button_search.grid(row=3, column=0, sticky=W)
 
-root.maxsize(340, 365)
+root.maxsize(340, 375)
 
 
 root.mainloop()
